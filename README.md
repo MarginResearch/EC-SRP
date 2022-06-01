@@ -23,8 +23,9 @@ client: python3 ecsrp_client.py -a 127.0.0.1 -u admin -p pass
 ```
 
 # Dependencies
-These tools require the `ecdsa` library:
+These tools require the following dependencies:
 
 ```
 pip3 install ecdsa
+pip3 install rich
 ```
